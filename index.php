@@ -259,14 +259,8 @@ button{
             <div class="input-group">
                 <label for="pass">Password</label>
                 <input type="password" id="pass" name="pass" required placeholder="Enter your password">
-                <button type="button" id="togglePassword" class="toggle-password">
-                    <img id="eyeIcon" src="https://cdn-icons-png.flaticon.com/512/159/159604.png" alt="Show Password">
-                </button>
                 <label for="Cpass">Confirm Password</label>
                 <input type="password" id="Cpass" name="Cpass" required placeholder="Enter your password">
-                <button type="button" id="togglePassword" class="toggle-password">
-                    <img id="eyeIcon" src="https://cdn-icons-png.flaticon.com/512/159/159604.png" alt="Show Password">
-                </button>
             </div>
 
             <p class="forgot-password">
