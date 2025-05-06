@@ -240,13 +240,9 @@ button{
 .social i{
   margin-right: 4px;
 }
-.login-container{
-    height: 700px;
-}
     </style>
 </head>
 <body>
-    <div class="login-container">
         <h2>Log In</h2>
         <form method= "post" id="login-form">
             <div class="input-group">
@@ -275,7 +271,6 @@ button{
             </a> 
             <p id="error-message" class="error-message"></p>
         </form>
-    </div>
 </body>
 </html>
 
