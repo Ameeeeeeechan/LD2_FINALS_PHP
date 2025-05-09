@@ -2,12 +2,6 @@
 
 session_start();
 
-if(isset($_SESSION["email"])){
-    header("location: ./menu.php");
-    exit;
-}
-
-
 $email = "";
 $error = "";
 
