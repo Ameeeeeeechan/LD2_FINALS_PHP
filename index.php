@@ -2,11 +2,6 @@
 
 session_start();
 
-$authenticated = false;
-if(isset($_SESSION["email"])){
-    $authenticated = true;
-}
-
 $first_name = "";
 $last_name = "";
 $email = "";
@@ -101,10 +96,6 @@ IF($_SERVER['REQUEST_METHOD'] == 'POST'){
     exit();
     }
 }
-if($authenticated){
-    header("Location: login.php");
-    exit();
-} else {
 ?>
 <html lang="en" >
 
@@ -272,9 +263,3 @@ button{
         </form>
 </body>
 </html>
-
-
-
-<?php
-}
-?>
